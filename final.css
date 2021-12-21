@@ -1,0 +1,13 @@
+* {font-family: 맑은 고딕;}
+#q2_box { background-color: lightblue;  padding: 10px; border: 10px; margin: 10px; width:900px; height: 50px}
+#q4_box { background-color: lightyellow;  padding: 10px; border: 10px; margin: 10px; width:900px; height: 50px}
+#q6_box { background-color: lightgreen;  padding: 10px; border: 10px; margin: 10px; width:1170px; height: 800px }
+
+#q6_inputmoney_box { color: black; font-weight: bold; font-size: 20px; background-color: lightgray;  padding: 10px; border: 10px; margin: 10px; width:1020px; height: 40px }
+#q6_order_box { color: blue; font-weight: bold; font-size: 20px; background-color: lightgreen;  padding: 10px; border: 10px; margin: 10px; width:1020px; height: 40px }
+#q6_pay_box { color: red; font-weight: bold; font-size: 20px; background-color: lightpink;  padding: 10px; border: 10px; margin: 10px; width:1020px; height: 40px }
+
+.answer {color: red;}
+
+#gakwansik { position: absolute; width:1200px;}
+#silsup {position: absolute; left: 1250px; width:1200px;}

@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Single+Day&display=swap&subset=korean" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap&subset=korean" rel="stylesheet">
+<style>
+body
+{
+    margin:0 auto;
+    padding:0;
+    background-color:rgb(231, 224, 192);
+
+}
+
+li
+{
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+    color:black;
+
+}
+a:hover
+{
+
+    color:rgb(105, 120, 255);
+
+
+}
+
+
+span
+{
+    font-size:1.5em;
+}
+
+#header
+{
+    min-width:80%;
+    height:100px;
+    border-bottom:1px solid black;
+    overflow:hidden;
+    padding:10px 10px;
+    line-height:30px;
+}
+
+#header div
+{
+    float:left;
+    font-family: 'Lobster', cursive;
+    font-align:center;
+    text-align:center;
+    font-size:1.5em;
+    color:black;
+           text-align:center;
+           margin-left:550px;
+            color:black;
+
+}
+#header div:nth-child(3)
+{
+    float:left;
+    margin-top:20px;
+
+}
+#nav
+{
+
+    min-width:80%;
+    height:50px;
+    border:1px solid black;
+
+
+}
+
+#nav ul
+{
+    overflow:hidden;
+}
+#nav ul li
+{
+    display:block;
+    float:left;
+    padding: 10px;
+    border-right:1px solid black;
+    box-sizing:border-box;  
+
+}
+#nav ul li a:hover
+{
+    color:blue;
+    opacity:0.6;
+
+}
+#nav ul li:last-child
+{
+    border:none;
+}
+
+#content
+{
+    min-width:80%;
+    margin-top:10px;
+    height:300px;
+
+    overflow:hidden;
+    position:relative;
+
+}
+#content div:nth-child(1)
+{
+    margin:20px;
+    float:left;
+
+}
+#content div:nth-child(2)
+{
+    margin-left:20px;
+    float:left;
+    white-space:nowrap;
+
+}
+#content div:nth-child(3)
+{
+
+    float:right;
+    position:absolute;
+    left:1000px;
+    top:0px;
+
+}
+#content div p
+{
+    line-height:50px;
+}
+
+audio
+{
+    max-width:200px;
+    height:50px;
+    loop:infinite;
+}
+#footer
+{
+    min-width:800px;
+    margin-top:10px;
+    height:100px;
+    border-top:1px solid black;
+    overflow:hidden;
+}
+#footer div:nth-child(1)
+{
+    float:left;
+}
+#footer div:nth-child(2) p
+{
+    float:left;
+    margin-left:30px;
+    font-weight:bold;
+    line-height:35px;
+    font-size:1.5em;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div id ="header">
+
+    <div>
+        <h1><a href="./main.html">My Hobbies</a></h1>
+    </div>
+
+
+</div>
+
+
+<div id="nav">
+    <ul>
+        <li><a href="./music.html">Music</a></li>
+        <li><a href="./movie.html">Movie</a></li>
+        <li><a href="./sports.html">Sports</a></li>
+        <li><a href="./trip.html">travel</a></li>
+    </ul>
+
+</div>
+
+<div id="search">
+
+    <div>
+        <form action="search_process.php" method="POST">
+            <input type="text" name="search_user" placeholder="찾고싶으신 회원 ID를 입력해주세요!!"  style="width:1000px; height:50px;">
+            <input type="submit" value="검색하기" style="width: 200px; height: 50px;">
+
+        </form>
+    </div>
+
+</div>
+
+
+<div id="content">
+    <div>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEyMTdfMjIz%2FMDAxNTQ1MDI1MTQwMDYy.aK7FI6-4Pu8nmPzXrCLLTJ471S-R0V4lkVF1XJBoh8wg.oU9I5Yx59Ep1uEfh1hmXDpiB2Qz-1IVAo6h5mRFbkc0g.PNG.wdb10004%2F1919.png&type=b400" width="200px" height="200px">
+    </div>
+
+    <div>
+        <h2>반갑습니다!! &nbsp;<span style="color:green">My Hobbies</span><sup><small>1)사이트 이름</small></sup>&nbsp; 입니다.</h2>
+        <h3>이 페이지는 서로의  <span><mark>취미</mark></span> 를 공유하는 <blink>사이트</blink> 입니다.</h3>
+        <p><blockquote><span>취미(趣味, 영어: hobby)</span>는 인간이 금전이 아닌 기쁨을 얻기 위해 하는 활동 </blockquote><br>즉, 전문적으로 하는 것이 아니라 즐기기 위하여 하는 일로써 일반적으로 여가에 즐길 수 있는 정기적인 활동이라고 정의할 수 있다. <br>취미에 아주 열심인 사람은<ins> 호비스트 </ins>(hobbyist)라고 부른다. <a href="write.php" ><span style="font-weight:bold;">&nbsp;글쓰기 클릭!!</span></a></p>
+    </div>
+    <div>
+        <audio src="music/BGM.mp3" autoplay controls ></audio>
+    </div>
+
+</div>
+
+<div id="footer">
+    <div>
+        <a href="http://www.kmu.ac.kr/uni/main/main.jsp" target="_blank"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEyMTdfMjIz%2FMDAxNTQ1MDI1MTQwMDYy.aK7FI6-4Pu8nmPzXrCLLTJ471S-R0V4lkVF1XJBoh8wg.oU9I5Yx59Ep1uEfh1hmXDpiB2Qz-1IVAo6h5mRFbkc0g.PNG.wdb10004%2F1919.png&type=b400" width="300px" height="100px"></a>
+    </div>
+    <div>
+        <p>
+            이름: 홍 길 동<br>
+            소속: 취미 공유 사이트 
+        </p>    
+    </div>
+
+
+</div>
+<hr>
+<progress id="what the fudck" name ="수강현황" value="45.135" max="100">수강현황</progress>
+<iframe src="https://www.youtube.com/embed/watch?v=iN2EgMckDZA&list=RD9MZl5NDwaX8&index=3&ab_channel=1theK%28%EC%9B%90%EB%8D%94%EC%BC%80%EC%9D%B4%29?start=120"></iframe>
+
+
+</body>
+</html>

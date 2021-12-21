@@ -1,0 +1,125 @@
+*
+{
+     background-color: rgb(245, 217, 180);
+}
+
+#header
+{
+            width: auto;
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+
+        #header a
+        {
+            text-decoration-line: none;
+            font-style: italic;
+            font-family: cursive;
+            font-size: 40px;
+        }
+
+        #header a:hover
+        {
+            border-bottom: 5px solid black;
+            color: lightcyan;
+            opacity: 0.5;
+        }
+        
+
+        .nav
+        {
+            color: magenta;
+            text-decoration-line: none;
+        }
+        #nav
+        {
+            border: 1px solid black;
+            min-width: 100%;
+            max-width: 100%;
+            height: 50px;
+            margin-bottom: 20px;
+
+        }
+
+        #nav ul
+        {
+            width: auto;
+            overflow: hidden;
+        }
+
+        #nav ul li
+        {
+            width: auto;
+            list-style: none;
+            font-size: 20px;
+            display: inline;
+            border: double;
+            padding: 10%;
+            text-align: center;
+        }
+
+        #nav ul li a:hover
+        {  
+            border-bottom: 2px solid black;
+            color: lightcyan;   
+            opacity: 0.5;
+        }
+        
+        #nav ul li :last-child
+        {
+            border: none;
+        }
+
+        #search
+        {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        #userid
+        {
+            width: 70%;
+            height: 50px;
+            font-size: 15px;
+        }
+
+        #dosearch
+        {
+            width: 10%;
+            height : 50px;
+            background-color: lightgrey;
+        }
+
+
+        #content
+        {
+            border: 1px solid black;
+            padding: 40px;
+        }
+
+        #content h1
+        {
+            padding-left: 10px;
+        }
+
+
+        #kitty
+        {
+            margin :30px;
+            float: left;
+        }
+
+
+        audio
+        {
+            margin: 30px;
+            max-width: 1000px;
+            loop:infinite;
+            float: left;
+        }
+        img
+        {
+            margin: 30px;
+            float: left;
+        }

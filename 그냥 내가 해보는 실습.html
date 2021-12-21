@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표랑 뭐 유튜브 등</title>
+    <script>
+        function ChangeColorred()
+        {
+            document.getElementById("red").style.color="red"
+        }
+        function ChangeColorblue()
+        {
+            document.getElementById("blue").style.color="blue"
+            document.getElementById("blue").style.backgroundColor="yellow"
+        }
+
+    </script>
+    <style>
+        *{font-size: 20px;}
+        table,th,td,tr
+        {
+            font-style: italic; color: black;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{background-color: lightpink;}
+        td{font-style: normal;}
+        tr:nth-child(odd){background-color: khaki;}
+        #blue{font-size: 10px;}
+        #buttontored{background-color: lightcyan;}
+        #buttontoblue{background-color: lightgreen;}
+        address{font-style:italic; background-color: lightgrey; margin-top: 40px;}
+        #youtube_player div{background-color: lavender;}
+        #youtube_player div #ash_island{background-color:lightpink;}
+
+    </style>
+</head>
+<body>
+    <header>
+    <p id = "blue">여기 있는 글씨가 바뀔거야</p>
+    <p id = "red">이거 맞나?</p>
+    <button id = buttontored value="색깔 바꾸기 버튼" onclick="ChangeColorred()">이거 맞나?</button><hr>
+    <button id = buttontoblue value="색깔 바꾸기 버튼" onclick="ChangeColorblue()">여기 있는...</button>
+    </header>
+    <hr>
+    <article>
+    <table height = "200" width = "500">
+       <thead align="left">
+            <th>비고</th>
+            <th>북한</th>
+            <th width = "100">미국</th>
+            <th>한국</th>
+       </thead>
+       <tbody align="center">
+           <tr>
+               <td rowspan="3">사람이름</td>
+                <td>김정은</td>
+                <td>바이든</td>
+                <td>문재앙</td>
+            </tr>
+            <tr>
+                <td>배진우</td>
+                <td>노민환</td>
+                <td>강승준</td>
+            </tr>
+            <tr>
+                <td>???</td>
+                <td>김여경</td>
+                <td>이민희</td>
+            </tr>
+            <tr>
+                <p><td colspan="3">이게 행 병합이랄까?</td></p>
+                <td>마지막 내용</td>
+            </tr>
+            <tr>
+                <p><td colspan="2">두개만 합치고</td></p>
+                <td colspan="2">마지막 행일까?</td>
+            </tr>
+       </tbody>
+    </table>
+    </article>
+    <hr><hr>
+    <h3>개소리 멈춰~!</h3>
+    <a href = "https://www.inflearn.com/course/html-%EA%B8%B0%EC%B4%88/lecture/81?tab=curriculum" target="_blank">
+    <img alt = "이게 글자인가?" src="https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MTVfNjkg/MDAxNjE4NDQ1MDUzNjUw.cXe4mvVJZg4cEPgzLJ10lAoJnIdypMHAjzqDJ7-6caQg.EPIsB4I45uWEWmPs8BdIwpy9_u-GsOuHLhmMxXR7RzUg.JPEG.bluekang2000/thisisme.jpg" width = "400" height="500">
+    </a>
+    <address>
+        <a href ="bluekang2000@naver.com">bluekang2000</a><br>
+        <a href ="tel : +08271576136">01071576136</a>
+    </address>
+    <a href="https://image.edaily.co.kr/images/Photo/files/NP/S/2021/06/PS21060200161.jpg" target="_blank"><button style ="background-color: white;">뭐 어쩌라고</button></a><br><br>
+    
+
+    <div id="youtube_player">
+        <div id="ash_island">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9_-RL0MlWzs?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="beo">
+            <iframe width ="560" height="315" src="https://youtube.com/embed/9MZl5NDwaX8?autoplay=1&mute=1"></iframe>
+        </div>
+    </div>
+
+
+
+    <br><a href="https://www.youtube.com/watch?v=9_-RL0MlWzs&ab_channel=PrivateMusicRoom" target="_blank"><img src = "https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MTVfNjkg/MDAxNjE4NDQ1MDUzNjUw.cXe4mvVJZg4cEPgzLJ10lAoJnIdypMHAjzqDJ7-6caQg.EPIsB4I45uWEWmPs8BdIwpy9_u-GsOuHLhmMxXR7RzUg.JPEG.bluekang2000/thisisme.jpg" width = "400" height="500"></a>
+    <br>
+
+    <p><i><b><strong><del>이제 더 해봐야할 실습이 뭐가 있을까</i></del></strong></b></p>
+    <ul style="list-style-type: square ">
+        <li style="font-family:inherit ;">노민환</li>
+        <li>강승준</li>
+        <li>배진우</li>
+    </ul>
+    <ol style="list-style: image-set();">
+        <li>1등 인덱스</li>
+        <li>2등 인덱스</li>
+        <li>3등 인덱스</li>
+    </ol>
+    <iframe src="https://88240.tistory.com/122" title="네이버" id="tistory" width="1000" height="400"></iframe><br>
+    <iframe src="https://www.youtube.com/embed/ZMrVGXxfMKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="구글드라이브" id="drive" width="1000" height="400"></iframe>
+
+
+
+    <br>
+    &lt;br&gt;
+
+
+</body>
+</html>
